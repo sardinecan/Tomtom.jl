@@ -1,0 +1,11 @@
+# config.toml
+[serveur]
+port = 8080
+hote = "localhost"
+
+[base_de_donnees]
+  [base_de_donnees.test]
+    utilisateur = "admin"
+    mot_de_passe = "secret"
+    nom = "ma_base_de_donnees"
+
